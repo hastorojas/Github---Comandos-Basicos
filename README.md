@@ -1,2 +1,2 @@
-# Github---Comandos-Basicos
+# Github-Comandos-Basicos
 Comandos básicos para Github
