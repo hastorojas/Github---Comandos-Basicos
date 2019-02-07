@@ -1,5 +1,6 @@
-#Comandos básicos para Github
-##Lista de comandos basicos para Github
+# Github<!-- omit in toc -->
+
+## Comandos basicos para Github<!-- omit in toc -->
 
 * `git add [archivo]` Trackea los archivos, los deja listos para hacer commit
 * `git rm --cached [archivo]` Quita el archivo del Stage
