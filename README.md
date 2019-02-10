@@ -20,3 +20,4 @@
 * `git branch -D` Borra la rama aún así esta contenga información
 * `git branch -m [NombreActual][NombreNuevo]` Cambia de nombre a una rama
 * `git config --list` Muestras todas las propiedades que git a configurado
+* `git merge` Trae los cambios de las otras ramas a la rama master
