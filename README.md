@@ -23,6 +23,7 @@
 * `git checkout` Cambia entre ramas y temporalmente entre los hash1
 * `git checkout -b [rama]` Crea una nueva rama y se va directamente a ella
 * `git merge` Trae los cambios de las otras ramas a la rama master
-* `git stash` Guarda los cambios pero solo para la rama en la que se encuentra
+* `git stash` Guarda los cambios en un limbo para que solo en la rama que estemos lo veamos
 * `git stash list` Muestra todos los stash que tenemos guardado
-* `git stash apply` Aplicamos el ultimo cambio, listos para que las demas ramas lo vean 
+* `git stash apply` Aplicamos el ultimo cambio, listos para que las demas ramas lo vean
+* `git stash apply [nom]` Aplicamos el cambio del stash que indiquemos
