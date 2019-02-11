@@ -2,14 +2,14 @@
 
 ## Comandos basicos para Github by hastorojas<!-- omit in toc -->
 
-* `git add [archivo]` Trackea los archivos, los deja listos para hacer commit
+* `git add [archivo]` Agrega los archivos al Stage
 * `git rm --cached [archivo]` Quita el archivo del Stage
-* `git add -A`: 	Agrega todos los archivos al Stage (los trackea)
+* `git add -A`: 	Agrega todos los archivos al Stage
 * `git rm -f [archivo]` Quita los archivos del Stage y los borra
-* `git commit -m "[mensaje]"`	Mensaje para saber que se hizo ejm. 'Iniciar nuestro landing'
-* `git log`	Muestra el historial de todos los commit que hemos realizado
+* `git commit -m "[mensaje]"` Agrega nuestro archivo al Repositorio, mensaje para saber que se hizo ejm. 'Iniciar nuestro landing'
+* `git log`	Muestra el historial de todos los commit que se han realizado
 * `git log --oneline`	Version resumida del historial
-* `git commit --amend` Anexa un cambio que hayamos olvidado al anterior commit
+* `git commit --amend` Anexa un cambio que hayamos olvidado al último commit
 * `git tag -a [version] -m "[mensaje]"`	Crea un tag (etiqueta) a el último commit realizado
 * `git tag [version] hash` Crea un tag a un hash especifico
 * `git tag -l` Muestra todos los tag
