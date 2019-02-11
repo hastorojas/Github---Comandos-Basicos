@@ -27,3 +27,4 @@
 * `git stash list` Muestra todos los stash que tenemos guardado
 * `git stash apply` Aplicamos el ultimo cambio, listos para que las demas ramas lo vean
 * `git stash apply [nom]` Aplicamos el cambio del stash que indiquemos
+* `git cherry-pick [hash1]` Trae el commit de una rama a otra
