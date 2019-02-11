@@ -21,5 +21,8 @@
 * `git branch -m [NombreActual][NombreNuevo]` Cambia de nombre a una rama
 * `git config --list` Muestras todas las propiedades que git a configurado
 * `git checkout` Cambia entre ramas y temporalmente entre los hash1
-* `git checkout -b [rama]` Crea una nueva rama y se va directamente a ella.
+* `git checkout -b [rama]` Crea una nueva rama y se va directamente a ella
 * `git merge` Trae los cambios de las otras ramas a la rama master
+* `git stash` Guarda los cambios pero solo para la rama en la que se encuentra
+* `git stash list` Muestra todos los stash que tenemos guardado
+* `git stash apply` Aplicamos el ultimo cambio, listos para que las demas ramas lo vean 
