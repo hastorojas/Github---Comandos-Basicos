@@ -28,3 +28,6 @@
 * `git stash apply` Aplicamos el ultimo cambio, listos para que las demas ramas lo vean
 * `git stash apply [nom]` Aplicamos el cambio del stash que indiquemos
 * `git cherry-pick [hash1]` Trae el commit de una rama a otra
+* `git reset --soft`	Quita un cambio, pero lo mantiene en el stage
+* `git reset --mixed`	Quita un cambio, lo quita del stage, los mantiene en el working directory
+* `git reset --hard`	Quita un cambio, los borra totalmente, pero si tienes guardado el hash1, lo puedes recuperar
